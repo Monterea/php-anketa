@@ -58,6 +58,11 @@ $con1 = new mysqli($srvrname,$username,$pw,$db);
     }
 
 ?>
+
+
+<br/>
+<br/>
+<a href="../projects.html">zpět na stránku s projekty</a>
 </div>
 
         <div class="sloupec">      
