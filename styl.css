@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+p {
+    font-size: 16px;
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgb(218, 239, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sloupce {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+h1{
+    font-family: 'Poppins', sans-serif; 
+    text-transform: uppercase;  
+    font-size: 3rem;  
+    padding: 20px;
+}
+
+table {
+    border: solid black 1px;
+    width: 99%;
+    justify-content: center;
+    max-width: 650px;
+    min-width: 350px;
+}
+th {
+    background-color: aqua;
+    font-weight: bold;
+    width: 100%;
+    
+}
+textarea {
+    width: 100%;
+}
+input {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: solid blue 1px;
+    text-align: center;
+}
+.tlacitko {
+    width: 80%;
+}
+
+td { 
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: antiquewhite;
+}
+h2 {
+    padding-top: 20px;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(26, 23, 180);
+}
+h3 {
+    text-align: center;
+}
+.cislo {
+    width: auto;
+}
+
+@media  screen and  (max-width: 650px){
+    .sloupce {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}
